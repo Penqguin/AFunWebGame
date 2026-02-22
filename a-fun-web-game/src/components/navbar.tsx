@@ -1,5 +1,3 @@
-
-
 const Navbar = () => {
   return (
     <nav className="navbar">
@@ -9,12 +7,13 @@ const Navbar = () => {
       </div>
 
       <ul className="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Create</a></li>
+        <li><a href="/Home">Home</a></li>
+        <li><a href="/CreateLobby">Create a Lobby</a></li>
+        <li><a href="/JoinLobby">Join</a></li>
       </ul>
 
       <div className="navbar-right" aria-hidden="true" />
     </nav>
   )
 }
-export default Navbar
+export default Navbar;
