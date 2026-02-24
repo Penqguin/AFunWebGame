@@ -169,6 +169,17 @@ html, body {
     animation: growWidth 0.7s ease 0.35s both;
 }
 
+.home-divider-large {
+    width: 240px;
+    height: 4px;
+    margin: 2rem 0;
+    background: linear-gradient(to right, #a855f7, #6366f1);
+    border-radius: 9999px;
+    border: none;
+    transform-origin: center;
+    animation: growWidth 0.7s ease 0.35s both;
+}
+
 .home-description {
     margin: 0 0 2.5rem;
     font-size: 1.15rem;
@@ -220,7 +231,7 @@ html, body {
     transform: translateY(-2px);
 }
 .home-demo-container {
-    margin-top: 4rem;
+    
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -269,6 +280,107 @@ html, body {
         width: 100%;
         text-align: center;
     }
+}
+.lobby-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.lobby-page {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+}
+
+.lobby-header {
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lobby-container {
+  display: flex;
+  flex: 1;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.lobby-sidebar {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.lobby-players {
+  width: 200px;
+}
+
+.players-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.player-item {
+  padding: 0.5rem 0;
+}
+
+.lobby-game-area {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f9;
+}
+
+.btn-start {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+}
+
+.lobby-chat {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 1rem;
+}
+
+.chat-welcome {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.chat-form {
+  display: flex;
+}
+
+.chat-input {
+  flex: 1;
+  padding: 0.5rem;
+  border-radius: 4px 0 0 4px;
+  border: 1px solid #ccc;
+}
+
+.chat-submit {
+  padding: 0.5rem;
+  border-radius: 0 4px 4px 0;
+  border: 1px solid #ccc;
+  background-color: #e0e0e0;
+  cursor: pointer;
 }
 
 
